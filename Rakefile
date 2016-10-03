@@ -12,4 +12,5 @@ Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'Flow'
   app.development { app.archs << 'x86' }
+  app.resources_dirs = ["./app/resources"]
 end
